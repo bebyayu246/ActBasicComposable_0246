@@ -20,5 +20,11 @@ fun KelasLogin() {
             modifier = Modifier.fillMaxWidth(),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
-        )
-}
+        ) {
+            Text(
+                text = "Login",
+                fontSize = 36.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+        }
