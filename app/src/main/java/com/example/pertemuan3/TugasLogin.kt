@@ -50,5 +50,15 @@ fun KelasLogin() {
                 fontSize = 26.sp,
                 fontWeight = FontWeight.Bold
             )
-
+            Image(
+                painter = painterResource(id = R.drawable.foto),
+                contentDescription = "Foto",
+                modifier = Modifier
+                    .size(300.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
         }
+    }
+}
+
