@@ -26,5 +26,9 @@ fun KelasLogin() {
                 fontSize = 36.sp,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 18.sp
+            )
 
         }
