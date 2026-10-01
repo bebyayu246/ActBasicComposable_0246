@@ -62,3 +62,4 @@ fun TataletakColumnRow(modifier: Modifier) {
     }
 }
 
+
