@@ -19,9 +19,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Pertemuan3Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
-                        modifier = Modifier.padding(innerPadding)
+                Scaffold(
+                    modifier = Modifier.fillMaxSize())
+                { innerPadding ->
+                    KelasLogin(
+//                        modifier = Modifier.padding(innerPadding)
                     )
                 }
             }
