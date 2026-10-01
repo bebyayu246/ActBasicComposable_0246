@@ -40,5 +40,10 @@ fun KelasLogin() {
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "Beby Ayu Verananda",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold
+            )
 
         }
