@@ -5,11 +5,15 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
-package com.example.actbasiccomposable
-
 @Composable
 fun KelasLogin() {
     Box(
         modifier = Modifier.fillMaxSize()
-    )
+    ){
+        Image(
+            painter = painterResource(id = R.drawable.background),
+            contentDescription = null,
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
 }
