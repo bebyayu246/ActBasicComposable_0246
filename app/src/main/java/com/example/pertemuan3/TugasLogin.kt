@@ -30,5 +30,10 @@ fun KelasLogin() {
                 text = "Ini adalah halaman login,",
                 fontSize = 18.sp
             )
+            Image(
+                painter = painterResource(id = R.drawable.logo),
+                contentDescription = "Logo",
+                modifier = Modifier.size(150.dp)
+            )
 
         }
